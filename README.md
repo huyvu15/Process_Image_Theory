@@ -1,5 +1,5 @@
 # Process_Image_Theory
-
+![Chứng chỉ](https://www.datacamp.com/statement-of-accomplishment/course/84704abf6c9b9361aefa4813dcae3ce229abe562?raw=1)
 # Thresholding(ngưỡng)
 Là phương pháp đơn giản nhất để phân loại hình ảnh. Tạo ngưỡng giúp cô lập các phần tử và được sử dụng trong phát hiện đối tượng, nhận dạng khuông mặt và các đối tượng khác
 
@@ -99,6 +99,7 @@ Giải thích thuật toán:
 Hiệu ứng bộ lọc được áp dụng trên hình ảnh, vì vậy nó sẽ phát hiện nhiều cạnh hơn. Thông thường để tham số sigma = 0.5
 
 Kết quả thu được khi để sigma là 1 và 0.5
+![result1](https://github.com/huyvu15/Process_Image_Theory/blob/main/k%E1%BA%BFt%20qu%E1%BA%A3%20khi%20%C4%91%E1%BA%B7t%20sigma%20l%C3%A0%201%2C%200.5.png)
 
 --> nhiều cạnh hơn
 
