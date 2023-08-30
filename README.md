@@ -1,5 +1,7 @@
 # Process_Image_Theory
-![Chứng chỉ](https://www.datacamp.com/statement-of-accomplishment/course/84704abf6c9b9361aefa4813dcae3ce229abe562?raw=1)
+![Chứng chỉ](https://github.com/huyvu15/Process_Image_Theory/blob/main/certificate.png)
+
+Link: https://www.datacamp.com/statement-of-accomplishment/course/84704abf6c9b9361aefa4813dcae3ce229abe562?raw=1
 # Thresholding(ngưỡng)
 Là phương pháp đơn giản nhất để phân loại hình ảnh. Tạo ngưỡng giúp cô lập các phần tử và được sử dụng trong phát hiện đối tượng, nhận dạng khuông mặt và các đối tượng khác
 
