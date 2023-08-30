@@ -9,6 +9,8 @@ Nó hoạt động tốt nhất trong các hình ảnh thang độ xám có đ�
 
 Để ngưỡng hình ảnh màu trước tiên chúng ta phải chuyển chúng sang thang độ xám
 
+![conver_gray](https://github.com/huyvu15/Process_Image_Theory/blob/main/convert_gray.png)
+
 # Filters
 tất cả hình ảnh đều được xác định bởi các cạnh(khung)
 
@@ -20,7 +22,7 @@ Quy trình: nếu ảnh có màu thì chuyển nó sang màu xám
 Module bộ lọc:
 
 - Gaussian smoothing:làm mờ ảnh và loại bỏ nhiễu
-
+![giảm nhiễu](https://github.com/huyvu15/Process_Image_Theory/blob/main/gi%E1%BA%A3m%20nhi%E1%BB%85u%20b%E1%BA%B1ng%20thu%E1%BA%ADt%20to%C3%A1n%20gaussian.png)
 # Contrast enhancement
 Độ tương phản của 1 hình ảnh có thể coi là thước đo phạm vi hoạt động của nó hoặc "độ lan rộng" của biểu đồ nó.
 
@@ -51,12 +53,16 @@ CÁc hoạt động hình thái cơ bản:
 
 > Erosion(Xói mòn): Loại bỏ pixels trên ranh giới của các đối tượng
 
+![Morphology](https://github.com/huyvu15/Process_Image_Theory/blob/main/morphology.png)
+
 ## Structuring element: 1 hình ảnh nhị phân nhỏ được sử dụng để thăm dò hình ảnh đầu vào
 
 
 # Image restoration
 
 Việc khôi phúc những ảnh bị hỏng gọi là inpainting. 
+
+![inpaint](https://github.com/huyvu15/Process_Image_Theory/blob/main/inpain.png)
 
 # Segmentation(Phân đoạn hình ảnh)
 
@@ -85,13 +91,13 @@ Các bước tìm 1 đường viền của 1 hình ảnh:
 - Sau khi thực hiện các bước này chúng ta nhận được 1 danh sách đường bao. Mỗi đường bao là 1 dãy hình (n, 2), bao gồm n tọa độ hàng và cột dọc theo đường bao.
 
 - Theo cách này, một đường bao giống như một đường viền, tạo thành nhiều điểm được nối với nhau.
-
+![contour](https://github.com/huyvu15/Process_Image_Theory/blob/main/contour.png)
 # Edge detection
 
 Tìm hiểu 1 trong những kỹ thuật phát hiện cạnh được sử dụng nhiều nhất: Canny. Đây được coi là phương pháp phát hiện cạnh tiêu chuẩn trong xử lý ảnh, có độ chính xác và thời gian thực hiện tốt hơn Sobel
 
 > Module: feature import canny
-
+![edge detection](https://github.com/huyvu15/Process_Image_Theory/blob/main/process_edge.png)
 Hàm này yêu cầu hình ảnh phải là một mảng 2 chiều, nghĩa là 1 hình ảnh có thang độ xám
 
 Giải thích thuật toán:
@@ -106,7 +112,7 @@ Kết quả thu được khi để sigma là 1 và 0.5
 --> nhiều cạnh hơn
 
 # Corners
-
+![corner](https://github.com/huyvu15/Process_Image_Theory/blob/main/corner.png)
 1 corner có thể định nghĩa là điểm nối của 2 cạnh. Về mặt trực quan nó cũng có thể là điểm nối của các đường viền
 
 Harris Corner Detector là 1 toán tử phát hiện góc được sử dụng rộng rãi trong các thuật toán thị giác máy tính
@@ -128,6 +134,8 @@ Trong phương thức corner_harris tham số min_distance = 5 là khoảng các
 Cửa số sẽ có kích thước tối thiểu để phát hiện khuôn mặt nhỏ hoặc ở xa. Tùy chỉnh để tìm đc khuôn mặt lớn hơn
 
 Phương thức này lấy hình ảnh làm tham số đầu vào đầu tiên(ima = image), một hệ tỉ lệ scale_factor = 1.2, step_ratio = 1(để càng cao thì kém quả sẽ kém hơn nhưng tốc độ tìm nhanh), kích thước tối thiểu, tối đa min_size(10, 10), max_size(200, 200)
+
+![face detection](https://github.com/huyvu15/Process_Image_Theory/blob/main/face%20detect.png)
 
 **Khi in kết quả chúng ta thấy nó là 1 dict trong đó r(row), c(column),...**
 
