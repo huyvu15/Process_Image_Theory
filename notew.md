@@ -1,4 +1,4 @@
-# Note
+# full Note the lessons
 
 # Thresholding(ngưỡng)
 Là phương pháp đơn giản nhất để phân loại hình ảnh. Tạo ngưỡng giúp cô lập các phần tử và được sử dụng trong phát hiện đối tượng, nhận dạng khuông mặt và các đối tượng khác
