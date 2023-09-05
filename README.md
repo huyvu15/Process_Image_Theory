@@ -22,7 +22,9 @@ Quy trình: nếu ảnh có màu thì chuyển nó sang màu xám
 Module bộ lọc:
 
 - Gaussian smoothing:làm mờ ảnh và loại bỏ nhiễu
+- 
 ![giảm nhiễu](https://github.com/huyvu15/Process_Image_Theory/blob/main/gi%E1%BA%A3m%20nhi%E1%BB%85u%20b%E1%BA%B1ng%20thu%E1%BA%ADt%20to%C3%A1n%20gaussian.png)
+
 # Contrast enhancement
 Độ tương phản của 1 hình ảnh có thể coi là thước đo phạm vi hoạt động của nó hoặc "độ lan rộng" của biểu đồ nó.
 
